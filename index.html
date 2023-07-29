@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <div class="contenidos">
+        <br><br>
+        <div class="contenedor_imagen">
+            <img alt="" id="personal" src="imgs/portafolio.jpeg">
+        </div>
+        <h1 class="titulo">Valentín Veintemilla</h1>
+        <hr>
+        <h2 class="subtitulo">Programador Front-End</h2>
+        <h2 class="subtitulo">HTML - CSS - JS - C++</h2>
+        <div class="contenedor_imagen">
+            <img alt="" class="front-end" src="imgs/frontend.jpg">
+            <img alt="" class="front-end" src="imgs/html-css-javascript.jpg">
+        </div>
+        <br><br>
+    </div>
+    
+    <br>
+
+    <div id="indice">
+        <h1 class="titulo">Índice</h1>
+        <ul>
+            <li><a href="#presentacion">Presentación</a></li>
+            <li><a href="#lenguajes">Lenguajes conocidos</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#social">Perfiles sociales</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+
+    <br>
+
+    <div class="contenidos">
+        <br>
+        <h1 id="presentacion" class="titulo">Presentación</h1>
+        <hr>
+        <h1>Me llamo Valentín, y me considero un apasionado de la programación.</h1>
+        <h2>Me encanta crear programas con el objetivo de resolver un determinado problema, las tecnologías web, la lógica detras de las paginas web, etc.</h2>
+        <br>
+    </div>
+
+    <br><br><br>
+
+    <div class="contenidos">
+        <br>
+        <h1 id="lenguajes" class="titulo">Lenguajes conocidos
+            <div class="contenedor_imagen">
+                <img src="imgs/lenguajes.png">
+            </div>
+        </h1>
+        <hr>
+        <p class="subtitulo">Desarrollo Web:</p>
+        <ul class="lenguaje">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <p class="subtitulo">Desarrollo de aplicaciones:</p>
+        <ul class="lenguaje">
+            <li>C++</li>
+        </ul>
+        <br>
+    </div>
+
+    <br><br><br>
+
+    <div class="contenidos">
+        <br>
+        <h1 id="educacion" class="titulo">Educación
+            <div class="contenedor_imagen">
+                <img src="imgs/educacion.jpg">
+            </div>
+        </h1>
+        <hr>
+        <br>
+        <table>
+            <thead class="subtitulo">
+                <tr>
+                    <th>Aprobado</th>
+                    <th>Actualmente cursando</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bachillerato - Medicina</td>
+                    <td>Carrera Tecnólogo en Informática</td>
+                </tr>
+                <tr>
+                    <td>Bachillerato - Físico-Matemático</td>
+                    <td>Curso de Desarrollo Web (JAP)</td>
+                </tr>
+                <tr>
+                    <td>First Certificate in English - B2</td>
+                </tr>
+                <tr>
+                    <td>Curso internacional de inglés (Saint College) - C1</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+    </div>
+
+    <br><br><br>
+
+    <div class="contenidos">
+        <br>
+        <h1 id="social" class="titulo">Perfiles sociales
+            <div class="contenedor_imagen">
+                <img src="imgs/social.png">
+            </div>
+        </h1>
+        <hr>
+        <p class="subtitulo">Me puedes encontrar en:</p>
+        <ul>
+            <li>Correo electrónico: v20milla@gmail.com</li>
+            <li><a href="https://www.instagram.com/valeveintemilla/" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/valeveintemilla" target="_blank">Twitter</a></li>
+        </ul>
+        <br>
+    </div>
+    
+    <br><br><br>
+
+    <div class="contenidos">
+        <br>
+        <br>
+        <form action="" method="post">
+            <fieldset>
+                <legend class="titulo" id="contacto">Contacto</legend>
+                <label for="nombre">Nombre:<input type="text" id="nombre" name="nombre" required></label>
+                <br>
+                <label for="gmail">Correo electrónico:<input type="email" id="gmail" name="gmail" required></label>
+                <br>
+                <label for="interes">
+                    Interés:<select id="interes" name="interes" required>
+                        <option value="elija">-Elija una opción-</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="propuesta">Propuesta</option>
+                        <option value="reporte">Reporte</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </label>
+                <br>
+                <label for="asunto">Asunto:<input type="text" id="asunto" name="asunto" required></label>
+                <br>
+                <label for="detalles">Detalles adicionales:<textarea cols="20" rows="2" placeholder="Detalles de interes" id="detalles"></textarea></label>
+                <br>
+                <label><input type="submit" value="ENVIAR" id="enviar"></label>
+                <br>
+                <br>
+            </fieldset>
+        </form>
+        <br>
+        <br>
+    </div>
+    
+</body>
+
+</html>

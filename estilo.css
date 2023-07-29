@@ -1,0 +1,66 @@
+/*Estilos del protafolio*/
+
+body{
+    font-family: "europa", sans-serif;
+}
+
+.contenidos{
+    background-color: skyblue;
+    border-radius: 20px;
+}
+
+.contenedor_imagen{
+    text-align: center;
+}
+
+img#personal{
+    width: 25%;
+    border-radius: 150px;
+}
+
+.front-end{
+    width: 17%;
+    border-radius: 50px
+}
+
+.titulo img{
+    width: 10%;
+    border-radius: 0px;
+}
+
+hr{
+    height: 2px;
+    color:black;
+    background-color: black;
+}
+
+h1, h2, ul, p, td, label{
+    font-size: 200%;
+}
+
+h1, h2, table{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.subtitulo{
+    font-size: 225%;
+    font-weight: bold;
+}
+
+ul.lenguaje > li{
+    background-color: rgb(123, 255, 0);
+    width: max-content;
+}
+
+table{
+    margin: auto;
+}
+
+input#enviar{
+    width: 12%
+}
